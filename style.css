@@ -1,4 +1,5 @@
 
+
 html,body{
     font-family: Verdana,sans-serif;
 }
@@ -101,6 +102,18 @@ article
     width:1024px;
     overflow-y: scroll;
 }
+
+.mainWrapper > h1 
+{
+    font-size: 30px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+}
+.mainWrapper > h2{
+    font-size: 32px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+}
 .btnWrapper
 {
     display: flex;
@@ -110,10 +123,18 @@ article
 {
     background-color: #04AA6D;
     color: #ffffff;
-    border-color: #04AA6D;
     border-radius: 5px;
     padding: 10px;
     width: 80px;
+    border: 1px solid #04AA6D;
+}
+.exampleBtn
+{
+    background-color: #E7E9EB;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #E7E9EB;
 }
 .contentWrapper
 {
@@ -121,11 +142,31 @@ article
     padding: 20px;
     margin: 10px;
 }
+.studyBtn
+{
+    display: block;
+    background-color: #04AA6D;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+    border: 1px solid #04AA6D;
+}
+.watchBtn
+{
+    background-color: #282a35;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+    border: 1px solid #282a35;
+}
 .gridWrapper
 {
     display: grid;
-    grid-template-columns: repeat(3,25%);
+    grid-template-columns:repeat(3,325px);
     grid-gap:20px;
+    margin-bottom: 16px;
 }
 .gridBtn
 {
@@ -143,10 +184,29 @@ article
     color: #FFC0C7;
     margin-bottom: 30px;
 }
+.getCertifiedBtn
+{
+    border-radius: 50px;
+    font-size: 18px;
+    background-color: #04AA6D;
+    padding: 17px 55px;
+    color: #fff;
+    border: 1px solid #04AA6D;
+}
 .footer-col-1
 {
     display: grid;
-    grid-template-columns: repeat(4,250px);
+    grid-template-columns: repeat(4,240px);
+    grid-gap: 15px;
+    
+}
+.footer-col-1 > .btn 
+{
+    padding: 8px 16px;
+    background-color: #E7E9EB;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid #e3e3e3;
 }
 .footer-col-2
 {
