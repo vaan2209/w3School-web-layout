@@ -1,4 +1,6 @@
-
+/* TODO: always use box sizing */
+/* reset margin padding font size */
+/* TODO: don't use fixed width anywhere */
 
 html, body {
     font-family: Verdana, sans-serif;
@@ -45,6 +47,7 @@ header {
     border-radius: 25px;
 }
 
+/* TODO: don't use padding to center nav' */
 .link {
     padding: 20px;
 }
@@ -97,14 +100,17 @@ section {
 main {
     display: flex;
     flex-direction: column;
+    /* TODO: why margin left */
     margin-left: 230px;
 }
 
 aside {
     width: 12%;
     background-color: #E7E9EB;
+    /* TODO: use variable to denote what's 60px */
     height: calc(100vh - 60px);
     overflow-y: scroll;
+    /* TODO: why position required */
     position: fixed;
 }
 
@@ -115,6 +121,7 @@ aside>h3, a {
 article {
     padding: 16px 32px 32px 17px;
     border-right: 1px solid #f1f1f1;
+    /* TODO: what's 341px use css variable */
     width: calc(100% - 341px);
 }
 
